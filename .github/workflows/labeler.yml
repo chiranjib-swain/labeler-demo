@@ -11,6 +11,10 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout .github folder
+        uses: actions/checkout@v4
+        with:
+          path: .github
       - uses: actions/labeler@v5
         with:
           repo-token: "${{ secrets.LABELER_TOKEN }}"
