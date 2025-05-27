@@ -1,0 +1,5 @@
+# .github/labeler.yml 
+components:
+  - src/components/*
+services:
+  - src/services/*
