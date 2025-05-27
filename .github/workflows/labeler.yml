@@ -11,8 +11,9 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout .github folder
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4 # Uploads repository content to the runner
+        with:
+          repository: "chiranjib-swain/labeler-demo"
       
       - uses: actions/labeler@v5
         with:
