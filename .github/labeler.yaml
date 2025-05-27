@@ -1,5 +1,4 @@
 # .github/labeler.yml 
 components:
-  - src/components/*
-services:
-  - src/services/*
+  - changed-files:
+      - any-glob-to-any-file: src/components/*
