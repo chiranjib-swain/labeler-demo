@@ -1,8 +1,6 @@
 name: PR Labeler
 
 on:
-  pull_request_target:
-    types: [opened, synchronize]
   workflow_dispatch:  # This enables manual triggering from the Actions tab
 
 jobs:
