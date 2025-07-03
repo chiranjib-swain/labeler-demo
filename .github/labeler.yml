@@ -1,4 +1,7 @@
 # .github/labeler.yml 
-components:
+# components:
+#   - changed-files:
+#       - any-glob-to-any-file: src/components/*
+native change:
   - changed-files:
       - any-glob-to-any-file: src/components/*
