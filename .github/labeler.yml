@@ -2,6 +2,8 @@
 # components:
 #   - changed-files:
 #       - any-glob-to-any-file: src/components/*
-native change:
-  - changed-files:
-      - any-glob-to-any-file: src/components/*
+# native change:
+#   - changed-files:
+#       - any-glob-to-any-file: src/components/*
+# .github/labeler.yml (another incorrect example)
+native change: src/components/*
