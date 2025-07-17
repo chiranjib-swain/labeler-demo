@@ -5,5 +5,5 @@
 docs:
 - all:
   - changed-files:
-    - any-glob-to-any-file: ['docs/source/news/*', 'README.md', 'AUTHORS.rst', 'CITATION.cff']
+    - any-glob-to-any-file: ['docs/**', 'README.md', 'AUTHORS.rst', 'CITATION.cff']
     - all-globs-to-all-file: '!docs/source/news/index.rst'
