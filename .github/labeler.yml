@@ -1,9 +1,24 @@
-# .github/labeler.yml 
-# components:
+# docs:
 #   - changed-files:
-#       - any-glob-to-any-file: src/components/*
-docs:
-- all:
+#     - any-glob-to-any-file: '*.md'
+#     - any-glob-to-any-file: .github/PULL_REQUEST_TEMPLATE/*.md
+#     - any-glob-to-any-file: .github/pull_request_template.md
+#     - any-glob-to-any-file: docs/**
+
+icons:
   - changed-files:
-    - any-glob-to-any-file: ['docs/**', 'README.md', 'AUTHORS.rst', 'CITATION.cff']
-    - all-globs-to-any-file: '!docs/source/news/index.rst'
+    - any-glob-to-any-file: svgs/*
+    - any-glob-to-any-file: app/assets/appfilter.xml
+
+code:
+  - all:
+  - changed-files: # Not indented as it either had the same or better results
+    - any-glob-to-any-file: 'app/**'
+    - any-glob-to-all-files: '!app/src/main/res/*/strings.xml'
+    - any-glob-to-all-files: '!app/assets/appfilter.xml'
+
+
+# locale:
+#   - changed-files:
+#     - any-glob-to-any-file: app/src/main/res/*/strings.xml
+    

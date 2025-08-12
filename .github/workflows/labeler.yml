@@ -11,10 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
+      issues: write
+      contents: read
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v4
       - uses: actions/labeler@v5
         with:
-          repo-token: '${{ secrets.GITHUB_TOKEN }}'
           sync-labels: true
