@@ -1,9 +1,9 @@
-# docs:
-#   - changed-files:
-#     - any-glob-to-any-file: '*.md'
-#     - any-glob-to-any-file: .github/PULL_REQUEST_TEMPLATE/*.md
-#     - any-glob-to-any-file: .github/pull_request_template.md
-#     - any-glob-to-any-file: docs/**
+docs:
+  - changed-files:
+    - any-glob-to-any-file: '*.md'
+    - any-glob-to-any-file: .github/PULL_REQUEST_TEMPLATE/*.md
+    - any-glob-to-any-file: .github/pull_request_template.md
+    - any-glob-to-any-file: docs/**
 
 icons:
   - changed-files:
@@ -18,7 +18,7 @@ code:
     - any-glob-to-all-files: '!app/assets/appfilter.xml'
 
 
-# locale:
-#   - changed-files:
-#     - any-glob-to-any-file: app/src/main/res/*/strings.xml
+locale:
+  - changed-files:
+    - any-glob-to-any-file: app/src/main/res/*/strings.xml
     
