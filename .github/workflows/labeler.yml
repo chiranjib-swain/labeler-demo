@@ -20,5 +20,5 @@ jobs:
         with:
           sync-labels: true
         env:
-          LABELER_DEBUG_DELAY_BEFORE_FETCH_MS: 15000   # 15s to add label that WILL be removed
+          LABELER_DEBUG_DELAY_BEFORE_FETCH_MS: 25000   # 15s to add label that WILL be removed
           LABELER_DEBUG_DELAY_BEFORE_SET_MS: 0
