@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">SampleApp</string>
     <string name="welcome_message">Welcome to SampleApp!</string>
+    // test
 </resources>
