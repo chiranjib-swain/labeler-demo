@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
       - uses: actions/labeler@v6
         with:
-          sync-labels: true
+          sync-labels: false
         # env:
         #   LABELER_DEBUG_DELAY_BEFORE_FETCH_MS: 20000
         #   LABELER_DEBUG_DELAY_BEFORE_SET_MS: 25000
