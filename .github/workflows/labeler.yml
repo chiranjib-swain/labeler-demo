@@ -16,10 +16,10 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v4
-      - uses: actions/labeler@v6
+      - uses: chiranjib-swain/labeler@fix/prevent-human-label-loss-908
         with:
-          sync-labels: false
-        # env:
-        #   LABELER_DEBUG_DELAY_BEFORE_FETCH_MS: 20000
-        #   LABELER_DEBUG_DELAY_BEFORE_SET_MS: 25000
-        #   LABELER_DEBUG_DELAY_AFTER_SET_MS: 0
+          sync-labels: true
+        env:
+          LABELER_DEBUG_DELAY_BEFORE_FETCH_MS: 20000
+          LABELER_DEBUG_DELAY_BEFORE_SET_MS: 25000
+          LABELER_DEBUG_DELAY_AFTER_SET_MS: 0
