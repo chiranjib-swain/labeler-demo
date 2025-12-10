@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v4
-      - uses: actions/labeler@v6
+      - uses: chiranjib-swain/labeler@test/max-labels
         with:
           sync-labels: true
         # env:
