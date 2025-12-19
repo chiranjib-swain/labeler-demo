@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v4
-      - uses: chiranjib-swain/labeler@test/max-labels
+      - uses: chiranjib-swain/labeler@chore/bump-octokit-core-v7
         with:
           sync-labels: true
         # env:
