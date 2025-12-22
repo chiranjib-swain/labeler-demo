@@ -1,16 +1,37 @@
-# Excerpted from issue #918
-
-Login:
+documentation:
   - changed-files:
-      - any-glob-to-any-file:
-          - 'src/addons/project/lib/Login.php'
-
-User:
+      - any-glob-to-any-file: "**/*.md"
+xcode:
   - changed-files:
-      - any-glob-to-any-file:
-          - 'src/addons/project/lib/User.php'
-
-Contact:
+      - any-glob-to-any-file: "**/*.resolved"
+      - any-glob-to-any-file: "**/*.xcodeproj"
+      - any-glob-to-any-file: "**/*.entitlements"
+      - any-glob-to-any-file: "**/.pbxproj"
+      - any-glob-to-any-file: "**/Gemfile"
+      - any-glob-to-any-file: "**/Podfile"
+      - any-glob-to-any-file: "**/*file.lock"
+      - any-glob-to-any-file: "**/*.plist"
+      - any-glob-to-any-file: "**/*.json"
+swift:
   - changed-files:
-      - any-glob-to-any-file:
-          - 'src/addons/project/lib/Contact.php'
+      - any-glob-to-any-file: "**/*.swift"
+tests:
+  - changed-files:
+      - any-glob-to-any-file: "**/*Tests.swift"
+"app store":
+  - changed-files:
+      - any-glob-to-any-file: fastlane/**
+      - any-glob-to-any-file: static/**
+GitHub:
+  - changed-files:
+      - any-glob-to-any-file: .github/**
+      - any-glob-to-any-file: .vscode/**
+      - any-glob-to-any-file: script/**
+      - any-glob-to-any-file: "*"
+tvOS:
+  - changed-files:
+      - any-glob-to-any-file: "**/TV**.swift"
+      - any-glob-to-any-file: "Bops Now Playing/**"
+iOS:
+  - changed-files:
+      - any-glob-to-any-file: "Bops/**"
