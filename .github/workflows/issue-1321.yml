@@ -16,9 +16,9 @@ jobs:
       - name: Run actions/stale
         uses: actions/stale@v10.1.1
         with:
-          stale-issue-message: 'This issue is stale because it has been open for 50 days with no activity.'
+          stale-issue-message: 'This issue is stale because it has been open for 20 days with no activity.'
           stale-pr-message: 'This pull request is stale because it has been open for 50 days with no activity.'
-          days-before-issue-stale: 50
+          days-before-issue-stale: 20
           days-before-pr-stale: 50
           days-before-close: 20
   
